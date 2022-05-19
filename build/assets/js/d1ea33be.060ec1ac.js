@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[311],{7162:function(s){s.exports=JSON.parse('[{"label":"docusaurus","permalink":"/brief-economy/build/blog/tags/docusaurus","count":1}]')}}]);
