@@ -54,9 +54,21 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'nature/readme',
             position: 'left',
-            label: '美景',
+            label: '自然',
+          },
+          {
+            type: 'doc',
+            docId: 'city/readme',
+            position: 'left',
+            label: '城市',
+          },
+          {
+            type: 'doc',
+            docId: 'word/intro',
+            position: 'left',
+            label: '文',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -68,40 +80,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/facebook/docusaurus',
-          //     },
-          //   ],
-          // },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} 简明经济学, Inc. Built with Docusaurus.`,
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} Beauty, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
