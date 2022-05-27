@@ -7,6 +7,11 @@ const sidebars = {
     },
     {
       type: 'doc',
+      label: '纽约',
+      id: 'city/new-york/intro',
+    },
+    {
+      type: 'doc',
       label: '槟城',
       id: 'city/penang/intro',
     }
