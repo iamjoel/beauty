@@ -3,17 +3,23 @@ const sidebars = {
   city: [
     {
       type: 'doc',
-      id: 'city/readme',
+      label: '北京',
+      id: 'city/asia/china/beijing/intro',
     },
     {
       type: 'doc',
       label: '纽约',
-      id: 'city/new-york/intro',
+      id: 'city/america/america/new-york/intro',
     },
     {
       type: 'doc',
       label: '槟城',
-      id: 'city/penang/intro',
+      id: 'city/asia/malaysia/penang/intro',
+    },
+    {
+      type: 'doc',
+      label: '资源',
+      id: 'city/readme',
     }
   ],
   word: [
